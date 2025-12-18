@@ -1,0 +1,36 @@
+header {
+  background-color: var(--bg-color);
+}
+
+.span {
+  color: var(--main-color);
+}
+
+.a {
+  color: var(--text-color);
+  font-size: 1.1rem;
+  font-weight: 600;
+}
+
+/* menu Styles */
+
+.menu-icon {
+  font-size: 30px;
+  background: linear-gradient(
+    to bottom,
+    #00b7ff,
+    var(--text-color),
+    #00b7ff
+  ) !important;
+  -webkit-background-clip: text !important;
+  -webkit-text-fill-color: transparent;
+  cursor: pointer;
+  transition: all 0.3s ease;
+  padding: 0 10px;
+}
+
+.close-btn {
+  color: white !important;
+  font-size: 30px;
+  padding: 0 10px;
+}

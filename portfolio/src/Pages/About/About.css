@@ -1,0 +1,49 @@
+.about-section {
+  position: relative;
+  padding: 5rem 0;
+  background: url("/assets/Images/about.jpg");
+  object-fit: contain;
+  background-position: 50%;
+  background-size: 100%;
+}
+
+.profile-img {
+  background-image: url("/assets/Images/profile.png");
+  object-fit: contain;
+  background-position: center;
+  background-size: 100% 110%;
+}
+
+.rotating-border {
+  position: absolute;
+  top: -6px;
+  left: -6px;
+  width: calc(100% + 12px);
+  height: calc(100% + 12px);
+  border-radius: 50%;
+  border: 1.5px solid var(--second-bg-color);
+  border-top: 1.5px solid var(--main-color);
+  border-bottom: 1.5px solid var(--main-color);
+  animation: spin 8s linear infinite;
+  z-index: 10;
+}
+
+/* Rotation keyframe */
+@keyframes spin {
+  0% {
+    transform: rotate(0deg);
+  }
+  100% {
+    transform: rotate(360deg);
+  }
+}
+
+@media (max-width: 640px) {
+  .about-section {
+    background-size: cover !important;
+  }
+
+  h2 {
+    font-size: 2.5rem !important;
+  }
+}

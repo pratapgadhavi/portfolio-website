@@ -1,0 +1,23 @@
+.work-experience-section {
+  background: url("/assets/Images/Experience.jpg") center/cover no-repeat;
+  position: relative;
+  padding: 5rem 0;
+}
+
+.experience-card {
+  box-shadow: 0 4px 15px rgba(0, 0, 0, 0.4);
+}
+
+.experience-card:hover {
+  border-color: #00bcd4;
+  box-shadow: 0 8px 25px rgba(0, 188, 212, 0.5);
+}
+
+.role {
+  background: linear-gradient(90deg, var(--main-color), #ff9800);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+.swiper-wrapper {
+  scroll-behavior: smooth;
+}

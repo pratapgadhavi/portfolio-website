@@ -1,0 +1,113 @@
+.btn-primary {
+  width: auto;
+  height: 100%;
+  background: var(--main-color);
+  border: 0.1rem solid var(--main-color);
+  border-radius: 0.5rem !important;
+  padding: 11px 25px !important;
+  letter-spacing: 1.5px;
+  font-size: 1.2rem;
+  color: var(--bg-color) !important;
+  z-index: 0;
+  overflow: hidden;
+  transition: color 0.3s ease, background 0.5s ease;
+}
+
+.btn-primary::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  inset: 0;
+  left: -100%;
+  width: 100%;
+  height: 100%;
+  background: var(--bg-color);
+  color: var(--black-color) !important;
+  z-index: 0;
+  transition: all 0.5s ease;
+}
+
+.btn-primary span,
+i,
+.btn-primary {
+  position: relative;
+  z-index: 10;
+}
+
+.btn-primary:hover::before {
+  left: 0;
+  transform: translateX(0);
+}
+
+.btn-primary:hover {
+  color: var(--main-color) !important;
+}
+
+/* Social Button Styles */
+
+.Social-btn {
+  position: relative;
+  display: inline-flex;
+  justify-content: center;
+  align-items: center;
+  width: 45px;
+  height: 45px;
+  font-size: 20px;
+  color: var(--main-color);
+  z-index: 1;
+  background: transparent;
+  border: 0.1rem solid var(--main-color);
+  border-radius: 50%;
+  overflow: hidden;
+}
+
+.Social-btn::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  inset: 0;
+  left: -100%;
+  width: 100%;
+  height: 100%;
+  background: var(--main-color);
+  color: var(--black-color);
+  z-index: 0;
+  transition: all 0.5s ease;
+}
+
+/* Text above background */
+.Social-btn i,
+.Social-btn {
+  position: relative;
+  z-index: 10;
+}
+
+.Social-btn:hover::before {
+  left: 0;
+  transform: translateX(0);
+}
+
+.Social-btn:hover {
+  color: var(--bg-color);
+}
+
+i {
+  border: none !important;
+  background: none !important;
+  /* color: black; */
+}
+
+i:hover {
+  color: var(--black-color) !important;
+}
+
+@media (max-width: 640px) {
+  .btn-primary {
+    font-size: 1rem !important;
+  }
+
+  .Social-btn {
+    width: 42px;
+    height: 42px;
+  }
+}

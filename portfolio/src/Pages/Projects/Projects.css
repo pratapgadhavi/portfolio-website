@@ -1,0 +1,5 @@
+.projects-section {
+  background: linear-gradient(rgba(0,0,0,0.7), rgba(0,0,0,0.9)), url('https://images.unsplash.com/photo-1498050108023-c5249f4df085') center/cover no-repeat;
+  position: relative;
+  padding: 5rem 0;
+}

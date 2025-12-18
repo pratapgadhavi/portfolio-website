@@ -1,0 +1,45 @@
+.skills-section {
+  background: url("/assets/Images/skills.jpg") center/cover no-repeat;
+  position: relative;
+  padding: 5rem 0;
+}
+
+.skills-container {
+  background: rgba(0, 0, 0, 0.4);
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.skills-container:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 8px 20px rgba(0, 171, 240, 0.5);
+}
+
+.skill-item {
+  transition: color 0.3s ease;
+}
+
+.skill-item:hover {
+  color: #0ea5e9; /* Tailwind sky-500 */
+  cursor: default;
+}
+
+/* Responsive */
+@media (max-width: 768px) {
+  .skills-container {
+    padding: 2rem;
+  }
+
+  .skill-item {
+    font-size: 1rem;
+  }
+}
+
+@media (max-width: 480px) {
+  .skills-container {
+    padding: 1.5rem;
+  }
+
+  .skill-item {
+    font-size: 0.9rem;
+  }
+}
