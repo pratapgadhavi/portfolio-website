@@ -32,25 +32,6 @@ This portfolio website is designed to present my professional profile, featured 
 * **JavaScript (ES6+)**
 * **Vite**
 * **HTML5 & CSS3**
-* **Netlify** (Deployment)
-
----
-
-## 📊 Performance & Quality
-
-* ⚡ Lighthouse Performance: **95+**
-* 🔍 SEO Score: **100**
-* ✅ Best Practices: **100**
-* ♿ Accessibility-friendly layout
-
----
-
-## 🔮 Future Improvements
-
-* 🌙 Dark / Light mode
-* 📩 Working contact form with backend
-* ✨ Animations (Framer Motion)
-* 🌐 Multi-language support
 
 ---
 
@@ -59,10 +40,8 @@ This portfolio website is designed to present my professional profile, featured 
 **Pratap Gadhavi**
 Frontend Developer (React / Angular)
 
-* GitHub: [https://github.com/your-username](https://github.com/your-username)
-* LinkedIn: (Add LinkedIn link)
-* Portfolio: (Add portfolio link)
-
+* GitHub: (https://github.com/pratapgadhavi/)
+* LinkedIn: https://www.linkedin.com/in/pratapgadhavi/
 ---
 
 ⭐ If you like this portfolio, feel free to give it a star!
